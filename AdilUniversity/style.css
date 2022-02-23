@@ -1,0 +1,1396 @@
+body{
+	font-family: sans-serif;
+overflow-x:hidden ;
+ max-width: 100%;
+	}
+a{
+	text-decoration: none;
+	color: white;
+	
+
+}
+
+a span{
+	color: lightsalmon;
+}
+
+.container{
+	transform: translate(50px);
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+#navbar{
+	position: relative;
+	z-index: 1;
+
+}
+
+
+#navbar img{
+	width: 150px;
+	position: absolute;
+	left: 200px;
+	top: 40px;
+	
+	}
+
+#navbar ul{
+	float: right;
+	text-decoration: none;
+	margin-right: 100px;
+	margin-top: 50px;
+	
+}
+
+#navbar li{
+	display: inline ;
+	padding: 20px;
+	font-weight: bold;
+
+}
+
+#banner{
+	transform: translateY(-100px);
+	
+}
+
+#banner img{
+	position: relative;
+	width: 100%;
+	height: 800px;
+}
+
+#banner h1{
+	color: white;
+	font-size: 50px;
+	position: absolute;
+	top: 350px;
+	left: 520px;
+}
+
+#banner h4{
+	color: white;
+	position: absolute;
+	top: 450px;
+	left: 400px;
+	font-size: 20px;
+}
+
+#banner span{
+	color: white;
+	position: absolute;
+	left: 250px;
+	bottom: -30px;
+}
+
+#banner a{
+	border: solid white 2px;
+	padding: 15px;
+	font-size: 20px;
+	color: white;
+	position: absolute;
+	top: 580px;
+	left: 700px;
+
+	transition-property: all;
+	transition-duration: 1s;
+}
+
+#banner a:hover{
+	background: lightsalmon;
+	color: white;
+}
+
+
+#course{
+	width: 100%;
+	position: relative;
+	text-align: center;
+	
+}
+
+#course-1{
+	position: absolute;
+	right: 100px;
+	border: solid grey 1px;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 40px;
+	background: lightsalmon;
+	color: white;
+}
+
+ #course-1 h3{
+ text-align: center;
+ }
+
+ #course-1 p{
+ 	transform: translate(-7px);
+ }
+
+#course-2{
+	position: absolute;
+	right: 600px;
+	border: solid grey 1px;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 40px;
+	background: lightsalmon;
+	color: white;
+}
+
+ #course-2 p{
+ 	transform: translate(-7px);
+ }
+
+ #course-2 h3{
+ text-align: center;
+ }
+
+
+#course-3{
+	position: absolute;
+	left: 100px;
+	border: solid grey 1px;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 40px;
+	background: lightsalmon;
+	color: white;
+}
+
+ #course-3 p{
+ 	transform: translate(-7px);
+ }
+
+
+ #course-3 h3{
+ text-align: center;
+ }
+
+#global{
+	position: relative;
+	top: 250px;
+	left: -50px;
+	text-align: center;
+}
+
+#global-2 {
+	transform: translateY(300px);
+	display: flex;
+	flex-direction: row;
+	box-sizing: border-box;
+	justify-content: space-around;
+}
+
+#global-2 img{
+	border-radius: 5%;
+    transform: translate(-50px);
+
+
+}
+ #global-2 img: hover{
+	background: black;
+	color: white;
+}
+
+.london{
+	position: absolute;
+	left: 140px;
+	bottom: 250px;
+	font-size: 40px;
+}
+
+.newyork{
+	position: absolute;
+	left: 650px;
+	bottom: 250px;
+	font-size: 40px;
+}
+
+.washington{
+	position: absolute;
+	right: 180px;
+	bottom: 250px;
+	font-size: 40px;
+}
+
+#facility{
+	position: relative;
+	top: 400px;
+	transform: translate(1px);
+	text-align: center;
+}
+
+
+
+#facility-2{
+    transform: translateY(-50px);
+	position: relative;
+	top: 500px;
+	box-sizing: border-box;
+}
+
+#facility-2 img{
+	border: solid grey 1px;
+	border-radius: 15px;
+	width: 450px;
+	height: 450px;
+    transform: translate(-20px,60px);
+}
+
+
+#facility-3{
+    transform: translateY(-50px);
+	position: relative;
+	top: 500px;
+	box-sizing: border-box;
+}
+
+#facility-3 img{
+	border: solid grey 1px;
+	border-radius: 15px;
+	width: 450px;
+	height: 450px;
+    transform: translate(500px,-400px);
+}
+
+
+#facility-4{
+    transform: translateY(-50px);
+	position: relative;
+	box-sizing: border-box;
+}
+
+#facility-4 img{
+	border: solid grey 1px;
+	border-radius: 15px;
+	width: 450px;
+	height: 450px;
+	float: right;
+    transform: translate(-100px,-355px);
+}
+
+
+#library{
+	position: absolute;
+	top: 500px;
+	left: 100px;
+}
+
+#basketball{
+	position: absolute;
+	top: 40px;
+	left: 620px;
+}
+
+#cafeteria{
+	position: absolute;
+	top: 90px;
+	right: 270px;
+}
+
+#facility-2 p{
+     position: absolute;
+     top: 530px;
+     left: -140px;
+}
+	
+#facility-3 p{
+     position: absolute;
+     top: 70px;
+     left: 400px;
+}
+
+#facility-4 p{
+     position: absolute;
+     top: 120px;
+     right: 200px;
+ }
+  #student{
+  	position: relative;
+  	left: 150px;
+  	top: 300px;
+  	text-align: center;
+  }
+
+  #student-1{
+  	float:left;
+  	position: relative;
+  	left: 120px;
+  	top: -320px;
+  	box-sizing: border-box;
+  }
+
+#student-1 img{
+	position: relative;
+	top: 750px;
+	left: 60px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+
+#student-1 h2{
+    position: relative;
+	top: 630px;
+    left: 120px;
+}
+
+#student-1 p {
+	position: relative;
+	top: 680px;
+    left:10px;
+}
+
+  #student-2{
+  	position: relative;
+  	right: -120px;
+  	bottom: 310px;
+  	float:right;
+  	box-sizing: border-box;
+  	  }
+
+#student-2 img{
+	position: relative;
+	top: 750px;
+	left: 60px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+
+#student-2 h2{
+    position: relative;
+	top: 630px;
+    left: 120px;
+}
+
+#student-2 p {
+	position: relative;
+	top: 680px;
+    left: 10px;
+}
+
+#stars4 img{
+    float: right;
+	position: relative;
+	right: -540px;
+	top: 520px;
+	width: 300px;
+	height: 120px;
+	z-index: -1;
+}
+
+#stars5 img{
+    float: left;
+	position: relative;
+	width: 270px;
+	height: 100px;
+	transform: translate(-165px,400px);
+	z-index: -1;
+}
+
+#enroll{
+	position: absolute;
+	top: 3000px;
+	left: 40px;
+}
+
+#enroll img{
+	margin-left: 100px;
+	transform: translateY(700px);
+	width: 90%;
+	height: 600px;
+	border-radius: 1%;
+	border: solid grey 1px;
+}
+
+#enroll h1{
+	font-size: 30px;
+	color: white;
+	position: relative;
+	top:350px;
+	left: 450px;
+}
+
+#enroll span{
+	position: absolute;
+	left: 90px;
+}
+
+#enroll a{
+
+	color: black;
+	border: solid black 1px;
+	padding: 15px 50px;
+	position: relative;
+	left: 640px;
+	bottom: -400px;
+	transition-property: all;
+	transition-duration: 1s;
+}
+
+#enroll a:hover{
+	background: lightsalmon;
+	color: white;
+}
+
+#foot{
+	text-align: center;
+	position: relative;
+	top: 1400px;
+	left: 210px;
+}
+
+#foot p{
+	position: absolute;
+	left: 330px;
+}
+
+#foot img{
+	text-decoration: none;
+	margin-top: -20px;
+	width: 30px;
+	height: 30px;
+}
+
+#foot a{
+	text-decoration: none;
+	position: relative;
+	right: 230px;
+}
+
+
+#graduation h1{
+	font-size: 30px;
+	color: white;
+	position: relative;
+	left: 700px;
+	top: -400px;
+}
+
+
+
+#graduation img{
+	transform: translateY(-100px);
+	height: 500px;
+	width: 1609px;
+	}
+
+#largest{
+position: relative;
+}
+
+#largest h1, p{
+ transform: translate(120px);
+}
+
+#largest a{
+	color: black;
+	position: absolute;
+	left: 120px;
+	border: solid grey 1px;
+    padding: 15px 30px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+#largest a:hover{
+   background: lightsalmon;
+   color: white;
+}
+
+#largest img{
+	float: right;
+	box-sizing: border-box;
+	position: relative;
+	top: -320px;
+	right: 100px;
+
+	width: 650px;
+	height: 450px;
+}
+
+#foot-2{
+	text-align: center;
+	position: relative;
+	top: 200px;
+	left: 600px;
+}
+
+#foot-2 h2{
+	position: relative;
+	left: -250px;
+}
+
+#foot-2 p{
+	position: absolute;
+	left: 1320px;
+}
+
+#foot-2 img{
+	text-decoration: none;
+	margin-top: -20px;
+	width: 30px;
+	height: 30px;
+	position: relative;
+	left: 20px;
+}
+
+#foot-2 a{
+	text-decoration: none;
+}
+
+#prog{
+	transform: translate(-280px);
+}
+
+#blogs{
+	position: relative;
+}
+
+#blogs img{
+	transform: translate(140px,-50px);
+     width: 800px;
+     height: 500px;
+}
+#blogs h1{
+	position: absolute;
+	right: 80px;
+	top: -40px;
+	border: solid black 1px;
+	background: lightsalmon;
+	color: white;
+	padding: 10px 105px;
+}
+
+#blogs ul{
+	list-style: none;
+	position: absolute;
+	right: 350px;
+	top: 50px;
+    
+}
+
+#blogs li{
+	padding-bottom: 30px;
+	font-weight: bold;
+}
+
+#blogs ol{
+	list-style: none;
+	position: absolute;
+	right: 80px;
+	top: 50px;
+}
+
+#blog-1 h1{
+   position: relative;
+   left: 400px;
+}
+
+#comment{
+	 margin-right:800px ;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 100px;
+     outline: solid grey 1px;
+	 position: relative;
+	 top: 50px;
+     left: 120px;
+
+}
+
+#comment input{
+	background: lightgray;
+ display: block;
+ padding: 10px 220px;
+ border: grey;
+}
+
+#comment textarea {
+  padding: 30px 225px;
+  border: grey;
+  background: lightgray;
+}
+
+
+#comment a{
+	position: absolute;
+	bottom: 10px;
+	left: 20px;
+	border: solid grey 1px;
+	padding: 15px 30px;
+	color: black;
+
+	transition-property: all;
+	transition-duration: 1s;
+}
+
+#comment a:hover{
+     background: lightsalmon;
+     color: white;
+}
+
+#foot-3{
+	text-align: center;
+	position: relative;
+	top: 150px;
+	left: -50px;
+}
+
+#foot-3 p{
+	position: absolute;
+	left: 540px;
+}
+
+#foot-3 img{
+	text-decoration: none;
+	margin-top: -20px;
+	width: 30px;
+	height: 30px;
+}
+
+#foot a{
+	text-decoration: none;
+}
+
+#maps iframe{
+	width:70% ;
+position: relative;
+top: -100px;
+left: 250px;
+}
+
+#address{
+	position: relative;
+}
+#address img{
+	position: absolute;
+	left: 350px;
+	width: 40px;
+	height: 40px;
+}
+
+#address address{
+	position:absolute;
+	left: 400px;
+	top: 10px;
+}
+
+#address a{
+	text-decoration: none;
+	color: black;
+}
+
+#number{
+	position: relative;
+	left: 400px;
+	top: 130px;
+}
+
+#number a{
+	color: black;
+	text-decoration: none;
+}
+
+#number img{
+	position: absolute;
+	left: -50px;
+	width: 40px;
+	height: 40px;
+}
+
+#number p{
+	font-size: 13px;
+	position: absolute;
+	left: -115px;
+	bottom: -35px;
+}
+
+
+#email{
+	position: relative;
+	left: 350px;
+	top: 250px;
+}
+
+#email img{
+ width: 40px;
+ height: 40px;
+}
+
+#email a{
+	position: absolute;
+	bottom: 25px;
+	left: 50px;
+	color: black;
+	text-decoration: none;
+}
+
+#email p{
+	font-size: 17px;
+position: absolute;
+bottom: -20px;
+left: -70px;
+}
+
+
+#aside{
+	display: block;
+	float: right;
+	position: relative;
+	right: 300px;
+	top: -60px;
+}
+
+#aside input{
+	background: lightgray;
+	border: grey;
+	margin-bottom: 20px;
+	padding: 10px 100px;
+}
+
+#aside textarea{
+	border: grey;
+	background: lightgray;
+	padding: 100px 100px;
+	margin-bottom: 30px;
+}
+
+#aside a{
+	border: solid grey 1px;
+	padding: 15px 30px;
+	color: black;
+	text-decoration: none;
+
+	transition-property: all;
+	transition-duration: 1s;
+
+}
+
+#aside a:hover{
+	background: lightsalmon;
+	color: white;
+}
+
+#foot-4{
+	text-align: center;
+	position: relative;
+	top: 400px;
+	left: 150px;
+}
+
+#foot-4 p{
+	position: absolute;
+	left: 360px;
+}
+
+#foot-4 img{
+	text-decoration: none;
+	margin-top: -20px;
+	width: 30px;
+	height: 30px;
+}
+
+#foot-4 a{
+	text-decoration: none;
+}
+
+#foot-5{
+	text-align: center;
+	position: relative;
+	top: 20px;
+	margin-bottom: 4000px;
+}
+
+#foot-5 h2{
+	text-align: center;
+	position: relative;
+	top: -2000px;
+	left: 200px;
+}
+
+
+#foot-5 blockquote{
+	text-align: center;
+	position: relative;
+	top: -2020px;
+	left: 200px;
+}
+
+
+
+#foot-5 img{
+	text-decoration: none;
+	position: relative;
+	top: -2050px;
+	left: 200px;
+	width: 30px;
+	height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media queries for iphone xr*/
+
+@media (max-width: 414px){
+	html,body{
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		overflow-x: hidden;
+	}
+
+	#prog big{
+	position: relative;
+	left: 180px;
+	font-size: 14px;
+}
+
+#blogs img{
+	transform: translate(10px,-150px);
+	width: 350px;
+	height: 250px;
+
+}
+
+#blogs h1{
+	transform: translateY(150px);
+	padding: 8px;
+}
+
+#blogs ul{
+	position: relative;
+	top: -50px;
+	left: 20px;
+	font-size: 12px;
+}
+
+#blogs ol{
+	font-size: 12px;
+	transform: translateY(160px);
+}
+
+
+#blog-1{
+	position: relative;
+	left: -110px;
+}
+
+#blog-1 big{
+	white-space: nowrap;
+	position: relative;
+	left: 30px;
+	font-size:15px;
+}
+
+#blog-1 p{
+	font-size: 13px;
+}
+
+#navbar img{
+	position: relative;
+	left: 120px;
+}
+	#navbar ul{
+     display: flex;
+     flex-direction: row;
+     position: relative;
+     left: 80px;
+     top: -20px;
+     font-size: 13px;
+	}
+	#banner h1{
+		white-space: nowrap;
+		transform: translate(-430px,-80px);
+		font-size: 18px 
+	}
+
+		#banner h4{
+			white-space: nowrap;
+		transform: translate(-380px,-120px);
+		font-size:8px;
+	}
+
+			#banner span{
+		transform: translate(-150px,-10px);
+		font-size:10px;
+	}
+	#banner img{
+		transform: translateY(-280px);
+		width: 100%;
+	}
+
+			#banner a{
+				padding: 5px;
+				font-size: 10px;
+				white-space: nowrap;
+				text-decoration: none;
+		transform: translate(-550px,-180px);
+	}
+
+	#course{
+		margin-top: -220px;
+	}
+
+	#course-1{
+		transform: translate(55px,30px);
+	
+	}
+
+	#course-2{
+		width: 295px;
+		height: 200px;
+        transform: translate(555px,260px)
+	}
+
+	#course-3{
+	transform: translate(-50px,510px);
+	}
+
+	#global{
+transform: translateY(550px);
+	}
+
+	#global-2 {
+		position: relative;
+		transform: translate(100px,1200px);
+		display: flex;
+		flex-direction: column;
+		width: 200px;
+		height: 200px
+
+	}
+
+	.newyork{
+transform: translate(-650px,200px);
+font-size: 25px;
+white-space: nowrap;
+	}
+
+.london{
+	font-size: 25px;
+	transform: translate(-134px,-50px);
+}
+
+.washington{
+		font-size: 25px;
+		transform: translate(100px,500px);
+}
+
+#facility{
+	transform: translate(-10px,1200px);
+}
+
+#facility-2 img {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	box-sizing: border-box;
+	transform: translate(100px,1500px);
+	width: 250px;
+	height: 250px;
+
+}
+
+#facility-2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	box-sizing: border-box;
+	transform: translate(-70px,-300px);
+	width: 250px;
+	height: 250px;
+
+}
+
+#library{
+	position: relative;
+	left: 130px;
+	top: 1500px;
+}
+
+#facility-2 p{
+	transform: translate(170px,1230px);
+}
+
+#facility-3 img {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	box-sizing: border-box;
+	transform: translate(100px,1650px);
+	width: 250px;
+	height: 250px;
+
+}
+
+#facility-3 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	box-sizing: border-box;
+	transform: translate(-70px,-300px);
+	width: 250px;
+	height: 250px;
+
+}
+
+#basketball{
+	position: relative;
+	left: 130px;
+	top: 1650px;
+}
+
+#facility-3 p{
+	position: relative;
+	left: 1px;
+	top: 1630px;
+}
+#facility-4 img {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	box-sizing: border-box;
+	transform: translate(100px,2300px);
+	width: 250px;
+	height: 250px;
+
+}
+
+#facility-4 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	box-sizing: border-box;
+	transform: translate(-70px,-300px);
+	width: 250px;
+	height: 250px;
+
+}
+
+#cafeteria{
+	position: relative;
+	left: 170px;
+	top: 2200px;
+}
+
+#facility-4 p{
+	
+	position: relative;
+	left: 1px;
+	top: 2340px;
+}
+
+
+
+
+
+#student{
+	transform: translate(-180px,1900px);
+}
+
+#student-1{
+	transform: translate(-235px,1850px);
+	font-size: 13px;
+}
+
+#student-1 h2{
+	font-size: 16px;
+	position: absolute;
+	top: 780px;
+	left: 130px;
+}
+#student-1 img{
+	position: relative;
+	left: 80px;
+	width: 40px;
+	height: 40px;
+}
+
+#student-2{
+	transform: translate(-320px,2000px);
+	font-size: 13px;
+}
+
+#student-2 h2{
+	font-size: 16px;
+	position: absolute;
+	top: 780px;
+	left: 130px;
+}
+#student-2 img{
+	position: relative;
+	left: 80px;
+	width: 40px;
+	height: 40px;
+}
+#stars4{transform: translate(-300px,1980px);
+width: 40px;
+height: 40px;
+}
+
+#stars5{
+		transform: translate(150px,1680px);
+		width: 50px;
+		height: 50px;
+}
+
+#enroll{
+	transform: translate(-120px,-50px);
+	width: 400px;
+	height: 100px;
+}
+#enroll h1{
+	font-size: 13px;
+	transform: translate(-300px,1420px);
+}
+#enroll a{
+	position: relative;
+	left: 250px;
+	top: 1800px;
+	padding: 10px;
+}
+
+#enroll img{
+    transform: translateY(2000px);
+    width: 400px;
+	height: 300px;
+}
+
+#foot{
+	transform: translate(-250px,1700px);
+}
+
+#foot h2{
+	position: relative;
+	left: -80px;
+}
+
+#foot blockquote{
+	position: relative;
+	left: 50px;
+}
+
+#foot p{
+	position: relative;
+	left: -70px;
+	white-space: nowrap;
+}
+
+#foot a{
+	position: relative;
+	left: 50px;
+}
+
+#graduation img{
+	transform: translateY(-200px);
+	width: 100%;
+	height: 500px;
+}
+
+#graduation h1{
+	font-size: 20px;
+	position: relative;
+	left: 150px;
+	top: -500px;
+}
+
+#largest{
+	transform: translate(-100px,-150px);
+
+}
+
+#largest h1{
+	font-size:20px ;
+}
+
+#largest p{
+    font-size: 12px;
+}
+#largest a{
+	padding: 10px;
+}
+
+#largest img{
+	width: 320px;
+	height: 250px;
+	transform: translate(170px,450px);
+}
+
+#maps iframe{
+	width: 320px;
+	height: 300px;
+	position: relative;
+	left: 15px;
+}
+ #address{
+ 	position: relative;
+ 	left: -320px;
+ 	white-space: nowrap;
+ }
+
+  #number{
+ 	position: relative;
+ 	left: 80px;
+ }
+
+ #email{
+ 	position: relative;
+ 	left: 30px;
+ }
+
+ #aside{
+ 	position: relative;
+ 	left: -130px;
+ 	top: 350px;
+ }
+
+ #aside input{
+ 	padding: 10px;
+ }
+
+
+ #aside textarea{
+ 	padding: 20px;
+ }
+
+ #aside a{
+ 	padding: 20px;
+ }
+
+ #foot-4{
+ 	position: relative;
+ 	top: 700px;
+ 	left: 50px;
+ }
+
+ #foot-4 p{
+ 	position: absolute;
+ 	left: -90px;
+ }
+
+  #foot-4 a{
+  	position: relative;
+  	left: -30px;
+ }
+
+#foot-2{
+	transform: translate(-350px);
+}
+
+#foot-2 h2{
+	transform: translate(5px,40px);
+}
+}
+
+#foot-2 blockquote{
+	font-size: 16px;
+	white-space: wrap;
+
+	transform: translate(-250px);
+}
+
+#foot-2 span{
+	position: relative;
+	left: -10px;
+}
+
+#foot-2 a{
+	position: relative;
+	left: -260px;
+}
+
+#foot-2 p{
+	white-space: nowrap;
+	transform: translate(-1500px);
+}
+
+#comment{
+	border: solid grey 1px;
+	padding: 100px 150px;
+	position: relative;
+	left: 60px;
+}
+
+#comment h1{
+	position: absolute;
+	left: 60px;
+	top: 10px;
+	white-space: nowrap;
+	font-size: 16px;
+}
+
+#comment input{
+	transform: translate(-130px,-50px);
+	padding: 10px;
+
+}
+
+#comment textarea{
+	position: absolute;
+	left: 20px;
+	top: 170px;
+	padding: 18px;
+}
+
+#comment a{
+	white-space: nowrap;
+	padding: 10px;
+	transform: translate(5px,-30px);
+	
+}
+
+
+#foot-3{
+	position: relative;
+	left: 20px;
+}
+
+#foot-3 p{
+	position: absolute;
+	left: -25px;
+}
+
+#foot-5{
+	position: relative;
+	top: 2200px;
+	left: 10px;
+}
+
+#foot-5 p{
+	position: absolute;
+	left: -40px;
+}
+
